@@ -40,7 +40,7 @@ This initiative helps **elderly patients, individuals with limited mobility, and
 ##  Team Members
 | Name | Role |
 |------|------|
-| **BENAISSA Bochra** | Team Leader |
+| **BENAISSA Bochra** | Team Leader+ Developer |
 | **ELAGRARI Douaa** | Developer |
 | **SAKRI Anfel** | Developer |
 | **NEGAB Rania** | Developer |
@@ -49,3 +49,9 @@ _Group 4 – Team 3_
 _National School of Artificial Intelligence_
 
 ---
+
+##  Team Members
+- **BENAISSA Bochra** – [@bouchra147587](https://github.com/bouchra147587)
+-**ELAGRARI Douaa**  – [@douaa-elagrari](https://github.com/douaa-elagrari)
+- **SAKRI Anfel** – [@anfelsk](https://github.com/anfelsk)
+- **NEGAB Rania** – [@RaniaNegab](https://github.com/RaniaNegab)
