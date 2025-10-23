@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouchra Benaissa | Profile</title>
+    <style>
+        /* ---------- Reset ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(135deg, #2c3e50, #4b6cb7);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* ---------- Card ---------- */
+        .card {
+            background: #1e1e2f;
+            border: 2px solid #4b6cb7;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            max-width: 700px;
+            width: 90%;
+            padding: 40px 30px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
+        }
+
+        /* ---------- Image ---------- */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4b6cb7;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #4b6cb7;
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        h3 {
+            color: #b0bec5;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+            margin-bottom: 30px;
+        }
+
+        /* ---------- Skills ---------- */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .skill {
+            background: #4b6cb7;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .skill:hover {
+            background: #5f7ce6;
+            transform: translateY(-2px);
+        }
+
+        /* ---------- Links ---------- */
+        .links a {
+            display: inline-block;
+            margin: 8px 10px;
+            padding: 10px 22px;
+            border-radius: 25px;
+            background: transparent;
+            text-decoration: none;
+            color: #4b6cb7;
+            border: 2px solid #4b6cb7;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .links a:hover {
+            background: #4b6cb7;
+            color: #fff;
+        }
+
+        /* ---------- Responsive ---------- */
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <!-- 🖼️ Replace this image path with your own -->
+        <img src="../assets/images/bouchra.jpg" alt="Bouchra Benaissa" class="profile-img" />
+
+        <h1>Bouchra Benaissa</h1>
+        <h3>Computer Science Student | Future Software Engineer</h3>
+
+        <p>
+            I’m a third-year Computer Science student at <b>ENSIA</b> (Higher School of Artificial Intelligence).
+            Passionate about <b>Web Development</b>, <b>Artificial Intelligence</b>, and <b>Team Projects</b>,
+            I enjoy creating modern and creative web interfaces while learning new technologies every day.
+            My goal is to become a professional software engineer who builds user-friendly and efficient solutions.
+        </p>
+
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+            <span class="skill">Java</span>
+            <span class="skill">Git & GitHub</span>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/bouchra147587" target="_blank">💻 GitHub Profile</a>
+            <a href="../portfolio/bochra-benaissa.html">🌐 My Full Portfolio</a>
+        </div>
+    </div>
+</body>
+
+</html>
