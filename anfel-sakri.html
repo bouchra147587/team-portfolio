@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anfel Sakri | Profile</title>
+    <style>
+        /* ---------- Base Reset ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(135deg, #0F172A, #1E293B);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* ---------- Card ---------- */
+        .card {
+            background: #1E293B;
+            border: 2px solid #f2e863;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+            width: 90%;
+            padding: 40px 30px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
+        }
+
+        /* ---------- Image Section ---------- */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #f2e863;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #f2e863;
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            color: #ffffffcc;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #e2e8f0;
+            margin-bottom: 30px;
+        }
+
+        /* ---------- Skills ---------- */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .skill {
+            background: #f2e863;
+            color: #0F172A;
+            padding: 8px 15px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .skill:hover {
+            background: #fff176;
+            transform: translateY(-2px);
+        }
+
+        /* ---------- Links ---------- */
+        .links a {
+            display: inline-block;
+            margin: 8px 10px;
+            padding: 10px 22px;
+            border-radius: 25px;
+            background: transparent;
+            text-decoration: none;
+            color: #f2e863;
+            border: 2px solid #f2e863;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .links a:hover {
+            background: #f2e863;
+            color: #0F172A;
+        }
+
+        /* ---------- Responsive ---------- */
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <!-- 🖼️ Replace the link below with your own photo -->
+        <img src="assets/images/home.png" alt="Anfel Sakri" class="profile-img">
+
+        <h1>Anfel Sakri</h1>
+        <h3>Computer Science Student</h3>
+
+        <p>
+            I’m a third-year Computer Science student at <b>ENSIA</b> (Higher School of Artificial Intelligence).
+            Passionate about <b>Artificial Intelligence</b>, <b>Mobile Development</b>, and <b>Web Development</b>,
+            I enjoy exploring how technology can solve real-world problems. I’m constantly learning, experimenting,
+            and building projects that combine creativity and innovation — from intelligent systems to modern,
+            user-friendly applications. My goal is to grow as a developer and contribute to impactful tech solutions.
+        </p>
+
+        <div class="skills">
+            <span class="skill">C++</span>
+            <span class="skill">Python</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Flutter</span>
+            <span class="skill">React Native</span>
+            <span class="skill">PHP</span>
+            <span class="skill">AJAX</span>
+            <span class="skill">SQL</span>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/anfelsk" target="_blank">💻 GitHub Profile</a>
+            <a href="https://anfelsk-portfolio.vercel.app" target="_blank">🌐 My Full Portfolio</a>
+        </div>
+    </div>
+</body>
+
+</html>
